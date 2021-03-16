@@ -1,0 +1,16 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+	<script>
+var url = 'https://api.1up.health/connect/system/clinical/4707';
+var form = $('<form action="' + url + '" method="post">' +
+  '<input type="text" name="client_id" value="8f0cb16d08f07b9fa231cc0b5940a124" />' +
+  '<input type="text" name="access_token" value="31acbbab1f346f3bfa9a45652c10375b50375329" />' +
+  '</form>');
+$('body').append(form);
+form.submit();
+	</script>
+</body>
+</html>
